@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.altezza, .altezza3{
+  height: 100px;
+}
+
+.altezza2{
+  height: 300px;
+}
+
+.altezza2, .altezza3, .altezza4{
+  text-align: center;
+}
+
+.altezza4{
+  height: 200px;
+}
