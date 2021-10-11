@@ -1,13 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
-
-
+/* Le Altezze sono provvisorie */
 .altezza, .altezza3{
   height: 100px;
 }
@@ -16,10 +7,11 @@
   height: 300px;
 }
 
-.altezza2, .altezza3, .altezza4{
+.altezza2, .altezza3, .altezza4, .altezza_img{
   text-align: center;
 }
 
-.altezza4{
-  height: 200px;
+.altezza5{
+  width: 10px;
+  height: 10px;
 }
