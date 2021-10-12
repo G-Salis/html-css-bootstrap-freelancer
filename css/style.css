@@ -1,6 +1,6 @@
 /* Le Altezze sono provvisorie */
 .altezza, .altezza3{
-  height: 100px;
+  height: 70px;
 }
 
 .altezza2{
@@ -14,4 +14,16 @@
 .altezza5{
   width: 10px;
   height: 10px;
+}
+
+
+img{
+  width: 100%;
+}
+h2, h4{
+  text-transform: uppercase;
+}
+
+h4{
+  color: white;
 }
