@@ -7,13 +7,8 @@
   height: 300px;
 }
 
-.altezza2, .altezza3, .altezza4, .altezza_img{
+.my_center, .altezza_img, .btn_box{
   text-align: center;
-}
-
-.altezza5{
-  width: 10px;
-  height: 10px;
 }
 
 .cnt_img{
@@ -33,6 +28,10 @@ h4, p{
   color: white;
 }
 
+a{
+  color: #1ABC9C;
+}
+
 .satanicline{
   display: inline-block;
   width: 15%;
@@ -47,4 +46,138 @@ h4, p{
   font-size: 30px;
   color: white;
   padding: 0 5px;
+}
+
+.white{
+  color: white;
+}
+
+form{
+  padding-top: 30px;
+}
+
+span{
+  padding-left: 5px;
+}
+
+.dt-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
+
+.my-btn{
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+  border: 1px solid white;
+}
+
+.my_bg_green{
+  background-color: #1ABC9C;
+}
+
+.my_bg_blue{
+  background-color: #3A546D;
+}
+
+.my_pd{
+  padding: 15px 0px;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon div{
+
+  margin: 0 2px;
+
+}
+
+.my_circle_border{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px 5px;
+
+}
+
+.icon svg{
+  color: white;
+  margin: 0 10px;
+}
+
+.my_overline{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.icon_opacity{
+  position: absolute;
+  font-size: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  transition: color 1s, font-size 1s;
+}
+
+.my_overline:hover .my_opacity{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 100;
+  width: calc(100% - 30px);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.my_overline:hover .icon_opacity{
+  font-size: 70px;
+  color: white;
+  z-index: 100;
+  cursor: pointer;
+}
+
+
+my_footer{
+  height: 100px;
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 1199.98px){
+
+ .satanicline{
+   width: 15%;
+ }
+}
+
+
+@media (max-width: 991.98px){
+
+  .satanicline{
+    width: 20%;
+  }
+
+}
+
+
+@media (max-width: 767.98px){
+
+  .satanicline{
+    width: 25%;
+  }
+
+
+}
+
+@media (max-width: 575.98px){
+
+  .satanicline{
+    width: 30%;
+  }
+
+
 }
