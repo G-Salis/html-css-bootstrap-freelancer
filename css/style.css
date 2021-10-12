@@ -16,14 +16,35 @@
   height: 10px;
 }
 
+.cnt_img{
+  width: 200px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
 
 img{
   width: 100%;
 }
-h2, h4{
+h2, h4, h3, p{
   text-transform: uppercase;
 }
 
-h4{
+h4, p{
   color: white;
+}
+
+.satanicline{
+  display: inline-block;
+  width: 15%;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.star{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  color: white;
+  padding: 0 5px;
 }
